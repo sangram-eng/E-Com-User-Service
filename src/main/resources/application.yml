@@ -1,14 +1,14 @@
 spring:
   application:
-    name: E-Com-User-Service
+    name: account
   datasource:
     password: root
-    url: jdbc:mysql://localhost:3306/user
+    url: jdbc:mysql://localhost:3306/account
     username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver  
   jpa:
     hibernate:
       ddl-auto: update
 server:
-  port: 9091
-  servlet:
-    context-path: /user
+  port: 9092
+  

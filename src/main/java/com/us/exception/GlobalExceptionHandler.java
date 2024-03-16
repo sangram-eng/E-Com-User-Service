@@ -1,4 +1,4 @@
-package com.account.exception;
+package com.us.exception;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.account.dto.ErrorResponseDto;
+import com.us.dto.ErrorResponseDto;
 
 import java.time.LocalDateTime;
 import java.util.HashMap;

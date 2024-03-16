@@ -1,13 +1,13 @@
-package com.account;
+package com.us;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AccountApplication {
+public class EComUserServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AccountApplication.class, args);
+		SpringApplication.run(EComUserServiceApplication.class, args);
 	}
 
 }
